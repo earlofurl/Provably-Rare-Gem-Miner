@@ -7,14 +7,15 @@ from eth_abi.packed import encode_abi_packed
 import random
 import time
 
-chain_id = 1  # eth main net who mine others chain for god sake // nah JK I think you know how to do chain ID
-entropy = 0x949f147e5fb733f43d887bd3f9455dad768029a75baa8c63ec2d749439935d59  # loot / main net
+chain_id = 250  # eth main net who mine others chain for god sake // nah JK I think you know how to do chain ID
+# entropy = 0x949f147e5fb733f43d887bd3f9455dad768029a75baa8c63ec2d749439935d59  # loot / main net
 # entropy = 0xe562c6985e1e24ea9e1b39595afc64ac6cee3a06f6f4402694a85f49a7986ba8 # bloot / main net
-gemAddr = '0xC67DED0eC78b849e17771b2E8a7e303B4dAd6dD4'  # gem address (yeah at this point you should know what it is)
-userAddr = '0x6647a7858a0B3846AbD5511e7b797Fc0a0c63a4b'  # your address. this is my address (where you can donate lol)
-kind = 0  # which gem ya want (Loot, Amethyst = 0 Topaz = 1 ... for Bloot Violet=10, Goldy Pebble =1 ...)
+entropy = 0x000080440000047163a56455ac4bc6b1f1b88efadf17db76e5c52c0ca594fd9b  # rarity / fantom opera
+gemAddr = '0x342EbF0A5ceC4404CcFF73a40f9c30288Fc72611'  # gem address (yeah at this point you should know what it is)
+userAddr = '0x445559b7Dc3E2584920a7B2Ff65537719999Ac41'  # your address. this is my address (where you can donate lol)
+kind = 2  # which gem ya want (Loot, Amethyst = 0 Topaz = 1 ... for Bloot Violet=10, Goldy Pebble =1 ...)
 nonce = 0  # how greedy are you? JK (you can read from contract or FE)
-diff = 1  # just read from the contract or front end
+diff = 1172594719  # just read from the contract or front end
 
 target = 2 ** 256 / diff
 
